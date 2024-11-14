@@ -31,3 +31,7 @@ GET http://localhost:5015/todos/2
 ###
 
 DELETE http://localhost:5015/todos/1
+
+###
+
+GET http://localhost:5015/tasks/2
