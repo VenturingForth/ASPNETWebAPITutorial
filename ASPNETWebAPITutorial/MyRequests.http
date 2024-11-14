@@ -1,1 +1,33 @@
-﻿GET http://localhost:5015/
+﻿GET http://localhost:5015/todos
+
+###
+
+POST http://localhost:5015/todos
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Write Demo",
+  "dueDate": "2024-07-12",
+  "isCompleted": true
+}
+
+###
+
+POST http://localhost:5015/todos
+Content-Type: application/json
+
+{
+"id": 2,
+"name": "Eat Cake",
+"dueDate": "2024-08-12",
+"isCompleted": false
+}
+
+###
+
+GET http://localhost:5015/todos/2
+
+###
+
+DELETE http://localhost:5015/todos/1
